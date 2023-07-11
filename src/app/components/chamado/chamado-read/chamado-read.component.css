@@ -1,0 +1,60 @@
+.container {
+    margin: auto auto 3rem auto;
+    width: 45%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+h1, img {
+    text-align: center;
+}
+
+img {
+    height: 15rem;
+}
+
+.status-prioridade {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-prioridade mat-form-field {
+    width: 49%;
+}
+
+.descricao {
+    min-height: 6rem;
+    max-height: 10rem;
+}
+
+button {
+    margin-top: .5rem;
+}
+h2 {
+    
+    margin-left: 1.5rem;
+    color: dimgray;
+    opacity: 50%;
+}
+
+.registros-update {
+    margin-bottom: 20px;
+  }
+  
+  .registro-item {
+    margin-bottom: 10px;
+  }
+  
+  .registro-header {
+    color: dimgray;
+    opacity: 50%;
+  }
+  
+  .data-atualizacao,
+  .responsavel {
+    margin: 5px 0;
+  }
